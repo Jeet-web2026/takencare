@@ -46,7 +46,7 @@ export default function Home() {
           </a>
           <button className="rounded-full bg-[#017EFF] px-4 py-2 cursor-pointer text-white shadow-sm capitalize text-base">book appointment now</button>
         </div>
-        <div className="absolute bg-[#017EFF] px-5 py-3 text-white -bottom-5 w-[91%] rounded-2xl">
+        <div className="absolute bg-[#017EFF] px-5 py-3 text-white -bottom-5 w-[91%] rounded-lg">
           <Menubar>
             <MenubarMenu>
               <MenubarTrigger>Home</MenubarTrigger>
