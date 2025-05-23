@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="h-[110vh] relative flex justify-center items-center px-[100px] pt-[8.5vh]">
-      <div className="absolute top-0 left-0 w-full h-[90%] bg-[#002570] z-1 rounded-b-[25%]"></div>
+      <div className="absolute top-0 left-0 w-full h-[90%] bg-[#002570] z-1 rounded-b-[18%]"></div>
       <div className="w-[50%] z-30 relative h-full">
         <Image
           src="/images/main-bg-image.png"
@@ -15,7 +15,7 @@ export default function Home() {
         ></Image>
       </div>
       <div className="w-[50%] z-30">
-        <div className="mb-2 bg-gray-500 w-[45%] font-semibold rounded-full py-1">
+        <div className="mb-2 bg-[#505c6e6b] w-[45%] font-semibold rounded-full py-1">
           <p className="mb-0 uppercase text-[2.5vh] text-white text-center"><i className="ri-service-fill me-2"></i>healthcare specialist</p>
         </div>
         <h1 className="capitalize text-[8vh] font-semibold text-white mb-[-2.5vh]">
