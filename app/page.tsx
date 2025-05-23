@@ -1,10 +1,19 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="h-screen relative flex justify-center items-center px-[100px] pt-15">
       <div className="absolute top-0 left-0 w-full h-[90%] bg-[#002570] z-1 rounded-b-[25%]"></div>
-      <div className="w-[50%]"></div>
+      <div className="w-[50%] z-30 relative h-full">
+        <Image
+          src="/images/main-bg-image.png"
+          alt="Hospital person Logo"
+          width={450}
+          height={450}
+          className="absolute top-20 right-0"
+        ></Image>
+      </div>
       <div className="w-[50%] z-30">
         <div className="mb-4 bg-gray-500 w-55 font-semibold rounded-full py-1">
           <p className="mb-0 uppercase text-sm text-white text-center"><i className="ri-service-fill me-2"></i>healthcare specialist</p>
@@ -16,7 +25,7 @@ export default function Home() {
           better doctors.
         </h1>
         <p className="text-sm opacity-50 text-white mt-5">Experience the highest standard of medical care management with our comprehensive, patient-centered solutions. We specialize in streamlining healthcare services, ensuring timely treatments, accurate medical records, and efficient coordination between providers and patients.</p>
-        <div className="flex flex-row mt-12">
+        <div className="flex flex-row mt-10">
           <Button asChild className="px-5 shadow-lg">
             <Link href="/learn-more" className="capitalize items-center">learn more</Link>
           </Button>
