@@ -11,7 +11,7 @@ export default function Home() {
           alt="Hospital person Logo"
           width={450}
           height={450}
-          className="absolute top-20 right-0 h-[70vh] w-[70vh]"
+          className="absolute top-20 right-0 w-[70vh]"
         ></Image>
       </div>
       <div className="w-[50%] z-30">
