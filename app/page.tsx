@@ -15,10 +15,13 @@ export default function Home() {
         <h1 className="capitalize text-5xl font-semibold text-white">
           better doctors.
         </h1>
-        <p className="text-sm opacity-50 text-white mt-4">Experience the highest standard of medical care management with our comprehensive, patient-centered solutions. We specialize in streamlining healthcare services, ensuring timely treatments, accurate medical records, and efficient coordination between providers and patients.</p>
-        <div className="flex flex-row mt-5">
-          <Button asChild>
-            <Link href="/learn-more" className="capitalize">learn more</Link>
+        <p className="text-sm opacity-50 text-white mt-5">Experience the highest standard of medical care management with our comprehensive, patient-centered solutions. We specialize in streamlining healthcare services, ensuring timely treatments, accurate medical records, and efficient coordination between providers and patients.</p>
+        <div className="flex flex-row mt-12">
+          <Button asChild className="px-5 shadow-lg">
+            <Link href="/learn-more" className="capitalize items-center">learn more</Link>
+          </Button>
+          <Button asChild className="px-5 ms-4 duration-300 ease-in shadow-lg border hover:ms-5 bg-transparent hover:bg-[#017EFF]/20 hover:border-0">
+            <Link href="tel:+919163715179" className="capitalize">(+91) 9163-7151-79</Link>
           </Button>
         </div>
       </div>
