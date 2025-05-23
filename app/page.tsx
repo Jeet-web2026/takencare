@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="h-screen relative flex justify-center items-center px-[100px] pt-15">
+    <main className="h-screen relative flex justify-center items-center px-[100px] pt-[15vh]">
       <div className="absolute top-0 left-0 w-full h-[90%] bg-[#002570] z-1 rounded-b-[25%]"></div>
       <div className="w-[50%] z-30 relative h-full">
         <Image
@@ -11,20 +11,20 @@ export default function Home() {
           alt="Hospital person Logo"
           width={450}
           height={450}
-          className="absolute top-20 right-0"
+          className="absolute top-20 right-0 h-[70vh]"
         ></Image>
       </div>
       <div className="w-[50%] z-30">
-        <div className="mb-4 bg-gray-500 w-55 font-semibold rounded-full py-1">
-          <p className="mb-0 uppercase text-sm text-white text-center"><i className="ri-service-fill me-2"></i>healthcare specialist</p>
+        <div className="mb-2 bg-gray-500 w-[45%] font-semibold rounded-full py-1">
+          <p className="mb-0 uppercase text-[2.5vh] text-white text-center"><i className="ri-service-fill me-2"></i>healthcare specialist</p>
         </div>
-        <h1 className="capitalize text-5xl font-semibold text-white mb-2">
+        <h1 className="capitalize text-[8vh] font-semibold text-white mb-[-2.5vh]">
           best caring,
         </h1>
-        <h1 className="capitalize text-5xl font-semibold text-white">
+        <h1 className="capitalize text-[8vh] font-semibold text-white mb-0">
           better doctors.
         </h1>
-        <p className="text-sm opacity-50 text-white mt-5">Experience the highest standard of medical care management with our comprehensive, patient-centered solutions. We specialize in streamlining healthcare services, ensuring timely treatments, accurate medical records, and efficient coordination between providers and patients.</p>
+        <p className="text-[2.5vh] opacity-50 text-white mt-3">Experience the highest standard of medical care management with our comprehensive, patient-centered solutions. We specialize in streamlining healthcare services, ensuring timely treatments, accurate medical records, and efficient coordination between providers and patients.</p>
         <div className="flex flex-row mt-10">
           <Button asChild className="px-5 shadow-lg">
             <Link href="/learn-more" className="capitalize items-center">learn more</Link>
