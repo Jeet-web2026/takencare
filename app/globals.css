@@ -1,7 +1,28 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 @custom-variant dark (&:is(.dark *));
+* {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.col-1 {
+  color: #152562;
+}
+
+.bg-1 {
+  background-color: #152562;
+}
+
+.col-2 {
+  color: #00bcdf;
+}
+
+.bg-2 {
+  background-color: #00bcdf;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

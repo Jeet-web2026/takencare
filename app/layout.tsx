@@ -12,7 +12,7 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "TakeNcare",
+  title: "TakeNcare - We takecare your all medical needs | Best medical healthcare systems in India",
   description: "A best Healthcare system for all medical needs.",
   icons: {
     icon: "/images/logo.png",
@@ -29,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"/>
       </head>
       <body className={figtree.variable}>
         <ThemeProvider

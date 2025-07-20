@@ -56,7 +56,7 @@ function MenubarTrigger({
     <MenubarPrimitive.Trigger
       data-slot="menubar-trigger"
       className={cn(
-        " flex items-center uppercase cursor-pointer me-2 px-2 py-1 text-base font-semibold outline-hidden select-none",
+        " flex items-center capitalize cursor-pointer me-2 px-2 py-1 text-base font-semibold outline-hidden select-none",
         className
       )}
       {...props}
