@@ -26,7 +26,7 @@ import {
 export const Navbar = () => {
     const presentpage = usePathname();
     return (
-        <header className="fixed top-0 left-0 w-full shadow-md px-5 py-3 flex lg:flex-row flex-col justify-between items-center">
+        <header className="fixed top-0 left-0 w-full shadow-md px-5 py-3 flex lg:flex-row flex-col justify-between items-center bg-white dark:bg-dark">
             <Link href="/" className="flex flex-row items-center">
                 <Image src="/images/logo.png" height={70} width={70} alt="main-logo" className="me-1" />
                 <div>

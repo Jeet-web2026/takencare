@@ -24,6 +24,10 @@
   background-color: #00bcdf;
 }
 
+.bg-3 {
+  background-color: #f2f9ff;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
