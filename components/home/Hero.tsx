@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <main className='flex justify-center items-center lg:flex-row flex-col h-screen px-10 bg-3 pt-10'>
       <div className='w-1/4'>
-        <h1 className='capitalize text-black text-6xl font-semibold col-1'>medical & <span className='block my-2.5'>healthcare</span> <span className='block col-2'>services</span></h1>
+        <h1 className='capitalize text-black text-7xl font-semibold col-1'>medical & <span className='block my-2.5'>healthcare</span> <span className='block col-2'>services</span></h1>
         <div className='mt-3'>
           <p className='opacity-75'>Your health is our top priority. Schdule an appointment with us today.</p>
           <div className="flex flex-row items-center">
