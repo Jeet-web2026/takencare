@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
-import { Navbar } from "@/components/ui/navbar";
+import { Navbar } from "@/components/essentials/navbar";
 
 
 const figtree = Figtree({
