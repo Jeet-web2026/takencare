@@ -1,9 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-body{
-  background-color: #E1EEFF;
-}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -121,4 +118,3 @@ body{
     @apply bg-background text-foreground;
   }
 }
-
