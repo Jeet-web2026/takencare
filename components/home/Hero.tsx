@@ -7,12 +7,13 @@ import {
 
 export const Home = () => {
   return (
-    <main className='flex justify-center items-center lg:flex-row flex-col h-screen px-14 bg-3 pt-5'>
+    <main className='flex justify-center items-center lg:flex-row flex-col h-screen px-14 bg-3 pt-8'>
       <div className='w-2/4 relative h-full flex justify-center items-center'>
         <div>
           <h1 className='capitalize text-black text-7xl font-semibold col-1'>medical & healthcare services</h1>
           <div className='mt-3'>
-            <p className='opacity-75'>Your health is our top priority. Schdule an appointment with us today.</p>
+            <p className='opacity-75'>Your health is our top priority. Schdule an appointment</p>
+            <p className='opacity-75'> with us today.</p>
             <div className="flex flex-row items-center">
               <Button className='bg-2 mt-4 capitalize cursor-pointer shadow-sm hover:shadow-md duration-300 me-3'>
                 read more<i className="ri-arrow-right-line"></i>
