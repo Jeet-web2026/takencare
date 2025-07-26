@@ -37,7 +37,7 @@ export const Home = () => {
       <div className='w-2/4 flex justify-end items-center relative h-full'>
         <div>
           <Image src="/images/main-bg-image.png" alt="doctor-main-background-image" height={500} width={500} className='absolute bottom-0 right-5 h-[540px] w-[530px] z-10' />
-          <div className="h-133 rounded-t-full w-160 bg-white absolute bottom-0 -right-8"></div>
+          <div className="h-[550px] rounded-t-full w-160 bg-white absolute bottom-0 -right-8"></div>
           <div className="bg-white p-1 shadow-sm absolute right-10 top-65 rounded-md z-20">
             <Image src="/images/heart-image.png" alt="human-heart" height={60} width={60} className='h-auto w-auto' />
           </div>
