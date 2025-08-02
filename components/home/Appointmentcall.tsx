@@ -47,7 +47,7 @@ const Appointmentcall = () => {
                         <div className="flex flex-col lg:flex-row">
                             <Textarea className='mb-4' placeholder='Type your message here.' />
                         </div>
-                        <Button className='w-full cursor-pointer bg-2 rounded-full shadow-sm hover:shadow-md mt-5'>Enquire now</Button>
+                        <Button className='w-full cursor-pointer bg-2 py-5 text-lg rounded-full shadow-sm hover:shadow-md mt-5'>Enquire now</Button>
                     </form>
                 </Card>
             </div>
