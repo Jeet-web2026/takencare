@@ -31,7 +31,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"/>
       </head>
-      <body className={figtree.variable}>
+      <body className={figtree.variable} style={{ width: "1300px", margin: "0 auto", backgroundColor: "#F2F9FF" }}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

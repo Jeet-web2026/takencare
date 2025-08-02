@@ -6,12 +6,12 @@ import { Button } from '../ui/button'
 const About = () => {
     return (
         <section className='px-14 py-13 flex lg:flex-row flex-col items-center gap-12 bg-[#f2f9ff73] relative'>
-            <Card className='absolute  z-20 p-5 top-70 left-0 rounded-l-none rounded-r-md'>
+            {/* <Card className='absolute  z-20 p-5 top-70 left-0 rounded-l-none rounded-r-md'>
                 <Image src="/images/main-bg-image.png" height={200} width={200} alt='video-calling-support' />
                 <p className='capitalize text-md font-bold w-2/3 rotate'>live videocall support</p>
-            </Card>
+            </Card> */}
             <div className="w-2/4">
-                <Card className='border-none shadow-none flex justify-center bg-white items-center w-full py-0'>
+                <Card className='border-none shadow-none flex justify-center bg-transparent items-center w-full py-0'>
                     <Image src="/images/about-bg.jpg" height={400} width={400} alt='about-bg' className='w-full h-115 object-cover rounded-4xl shadow-md' />
                 </Card>
             </div>
