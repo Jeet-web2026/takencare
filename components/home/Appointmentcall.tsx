@@ -3,6 +3,16 @@ import React from 'react'
 import { Input } from '../ui/input'
 import { Card } from '../ui/card'
 import { Button } from '../ui/button'
+import { Textarea } from '../ui/textarea'
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectLabel,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 
 const Appointmentcall = () => {
     return (
@@ -16,15 +26,25 @@ const Appointmentcall = () => {
                     <p className='text-sm capitalize font-medium col-1'>submit your enquiry and get a quick call</p>
                     <form action="" method="post" className='mt-5'>
                         <div className="flex flex-col lg:flex-row gap-5">
-                            <Input className='mb-5' />
-                            <Input className='mb-5' />
+                            <Input className='mb-5' type='text' placeholder='Full name' />
+                            <Input className='mb-5' type='number' placeholder='Contact number' />
                         </div>
                         <div className="flex flex-col lg:flex-row gap-5">
-                            <Input className='mb-5' />
-                            <Input className='mb-5' />
+                            <Input className='mb-5' type='email' placeholder='Email address' />
+                            <Select>
+                                <SelectTrigger>
+                                    <SelectValue placeholder="Select department" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectGroup>
+                                        <SelectLabel>Departments</SelectLabel>
+                                        <SelectItem value="Example">Example</SelectItem>
+                                    </SelectGroup>
+                                </SelectContent>
+                            </Select>
                         </div>
                         <div className="flex flex-col lg:flex-row">
-                            <Input className='mb-5' />
+                            <Textarea className='mb-5' placeholder='Type your message here.' />
                         </div>
                         <Button className='w-full cursor-pointer bg-2 rounded-full shadow-sm hover:shadow-md mt-5'>Enquire now</Button>
                     </form>
