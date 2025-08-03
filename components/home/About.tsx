@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div className="w-2/4">
                 <span className='col-2 uppercase font-medium text-base'>
-                    <i className="ri-focus-line text-lg me-3"></i>about us
+                    <i className="ri-focus-line text-lg me-2"></i>about us
                 </span>
                 <h2 className='capitalize col-1 mt-2 font-bold text-4xl'>world class patient <span className="block mt-2">facilities designed for you</span></h2>
                 <p className='col-1 text-base opacity-75 mb-5 mt-5 font-medium'>Our Hospital Management System offers a complete digital solution for hospitals, clinics, and healthcare providers to manage patient records, appointments, billing, and staff efficiently. Built with advanced security and scalability in mind, it simplifies healthcare operations while ensuring data accuracy and regulatory compliance.</p>
