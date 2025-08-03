@@ -6,7 +6,7 @@ import { Button } from '../ui/button'
 const About = () => {
     return (
         <section className='px-14 py-13 flex lg:flex-row flex-col items-center gap-12 bg-[#f2f9ff73] relative'>
-            <Card className='absolute z-20 p-0 overflow-hidden ps-5 border-15 top-70 left-0 rounded-l-none rounded-r-4xl flex flex-row bg-1 border-l-0 border-[#00bcdf]'>
+            <Card className='absolute z-20 p-0 overflow-hidden ps-5 border-15 top-70 left-0 rounded-r-4xl flex flex-row bg-1 border-l-0 border-[#00bcdf]'>
                 <div className="relative">
                     <p className='uppercase text-md font-bold rotate-90 text-white absolute w-[200px] top-[52%] -left-25'>videocall support</p>
                 </div>
