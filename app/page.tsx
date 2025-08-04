@@ -4,6 +4,7 @@ import Achive from "@/components/home/Achive";
 import Ourservices from "@/components/home/Ourservices";
 import Appointmentcall from "@/components/home/Appointmentcall";
 import Whyus from "@/components/home/Whyus";
+import Ourteam from "@/components/home/Ourteam";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Ourservices />
       <Appointmentcall />
       <Whyus />
+      <Ourteam />
     </>
   );
 }
