@@ -27,17 +27,40 @@ const Ourteam = () => {
                     }}
                 >
                     <CarouselContent>
-                        <CarouselItem className="basis-1/3 flex justify-center items-center">
-                            <Image src="/images/doctor_bg.png" height={180} width={180} alt='team-members' className='h-64 w-50 object-cover object-top' />
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/doctor_bg.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
                         </CarouselItem>
-                        <CarouselItem className="basis-1/3 flex justify-center items-center">
-                            <Image src="/images/main-bg-image.png" height={180} width={180} alt='team-members' className='h-64 w-50 object-cover object-top' />
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
                         </CarouselItem>
-                        <CarouselItem className="basis-1/3 flex justify-center items-center">
-                            <Image src="/images/doctor_bg.png" height={180} width={180} alt='team-members' className='h-64 w-50 object-cover object-top' />
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/doctor_bg.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
                         </CarouselItem>
-                        <CarouselItem className="basis-1/3 flex justify-center items-center">
-                            <Image src="/images/doctor_bg.png" height={180} width={180} alt='team-members' className='h-64 w-50 object-cover object-top' />
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
+                        </CarouselItem>
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
                         </CarouselItem>
                     </CarouselContent>
                     <CarouselPrevious className='cursor-pointer p-5' />
