@@ -6,7 +6,6 @@ import {
     CarouselContent,
     CarouselItem,
     CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 
 const Feedbacks = () => {
