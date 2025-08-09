@@ -8,6 +8,7 @@ import Ourteam from "@/components/home/Ourteam";
 import Feedbacks from "@/components/home/Feedbacks";
 import Howitworks from "@/components/home/Howitworks";
 import Awards from "@/components/home/Awards";
+import Blogs from "@/components/home/Blogs";
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
       <Feedbacks />
       <Howitworks />
       <Awards />
+      <Blogs />
     </>
   );
 }
