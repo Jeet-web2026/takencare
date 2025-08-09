@@ -62,6 +62,27 @@ const Ourteam = () => {
                                 <h6 className='capitalize col-2 text-center'>therapist</h6>
                             </div>
                         </CarouselItem>
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
+                        </CarouselItem>
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
+                        </CarouselItem>
+                        <CarouselItem className="basis-1/4 flex justify-center items-center">
+                            <div>
+                                <Image src="/images/main-bg-image.png" height={150} width={150} alt='team-members' className='h-50 w-35 object-cover object-top' />
+                                <h5 className='capitalize text-center font-semibold text-xl mt-2'>john doe</h5>
+                                <h6 className='capitalize col-2 text-center'>therapist</h6>
+                            </div>
+                        </CarouselItem>
                     </CarouselContent>
                     <CarouselPrevious className='cursor-pointer p-5' />
                     <CarouselNext className='cursor-pointer p-5' />
