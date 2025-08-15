@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Card } from "../ui/card";
+import Image from "next/image";
 
 const Blogs = () => {
     return (
@@ -19,12 +20,33 @@ const Blogs = () => {
                 </Link>
             </div>
             <div className="flex lg:flex-row flex-col gap-4 mt-8">
-                <div className="w-1/3">
-                    <Card></Card>
+                <div className="w-1/4">
+                    <Card className="bg-transparent border-none shadow-none relative gap-0 py-0 overflow-hidden">
+                        <div className="absolute bg-[#00000082] w-full h-full"></div>
+                        <Image src="/images/main-bg-image.png" height={300} width={400} alt="Blog Image" className="w-full h-75 object-top bg-white object-cover rounded-lg" />
+                        <p className="absolute capitalize font-medium col-1 text-base px-4 shadow-sm rounded-xl top-4.5 left-3.5 z-10 bg-white">best medicare</p>
+                        <p className="absolute bottom-2.5 left-3.5 font-medium text-white text-base">Sharing ideas, stories, and insights through engaging blog posts.</p>
+                    </Card>
                 </div>
-                <div className="w-2/3 grid lg:grid-cols-2 grid-cols-1 gap-4">
-                    <Card></Card>
-                    <Card></Card>
+                <div className="w-3/4 grid lg:grid-cols-2 grid-cols-1 gap-4">
+                    <Card className="bg-transparent border-none shadow-none relative gap-0 py-0 overflow-hidden">
+                        <div className="absolute bg-[#00000082] w-full h-full"></div>
+                        <Image src="/images/main-bg-image.png" height={300} width={400} alt="Blog Image" className="w-full h-75 object-top bg-white object-cover rounded-lg" />
+                        <p className="absolute capitalize font-medium col-1 text-base px-4 shadow-sm rounded-xl top-4.5 left-3.5 z-10 bg-white">best medicare</p>
+                        <p className="absolute bottom-2.5 left-3.5 font-medium text-white text-base">Sharing ideas, stories, and insights through engaging blog posts.</p>
+                    </Card>
+                    <div className="grid grid-cols-1 gap-4">
+                        <Card className="bg-transparent border-none shadow-none relative gap-0 py-0 overflow-hidden">
+                            <div className="absolute bg-[#00000082] w-full h-full"></div>
+                            <Image src="/images/main-bg-image.png" height={300} width={400} alt="Blog Image" className="w-full h-35 object-top bg-white object-cover rounded-lg" />
+                            <p className="absolute capitalize font-medium col-1 text-base px-4 shadow-sm rounded-xl top-4.5 left-3.5 z-10 bg-white">best medicare</p>
+                        </Card>
+                        <Card className="bg-transparent border-none shadow-none relative gap-0 py-0 overflow-hidden">
+                            <div className="absolute bg-[#00000082] w-full h-full"></div>
+                            <Image src="/images/main-bg-image.png" height={300} width={400} alt="Blog Image" className="w-full h-35 object-top bg-white object-cover rounded-lg" />
+                            <p className="absolute capitalize font-medium col-1 text-base px-4 shadow-sm rounded-xl top-4.5 left-3.5 z-10 bg-white">best medicare</p>
+                        </Card>
+                    </div>
                 </div>
             </div>
         </section>
