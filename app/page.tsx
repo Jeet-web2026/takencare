@@ -9,6 +9,7 @@ import Feedbacks from "@/components/home/Feedbacks";
 import Howitworks from "@/components/home/Howitworks";
 import Awards from "@/components/home/Awards";
 import Blogs from "@/components/home/Blogs";
+import Footer from "@/components/essentials/footer";
 export default function Home() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function Home() {
       <Howitworks />
       <Awards />
       <Blogs />
+      <Footer />
     </>
   );
 }
