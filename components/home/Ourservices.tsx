@@ -3,7 +3,7 @@ import Servicescard from '../extraparts/Servicescard'
 const Ourservices = () => {
     return (
         <div className='min-w-[1300px] max-w-[1350px] mx-auto'>
-            <section className="px-14 pb-10">
+            <section className="px-14 py-10">
                 <div className="flex justify-center items-center mb-2">
                     <span className='col-2 uppercase font-medium text-base'>
                         <i className="ri-focus-line text-lg me-2"></i>our services

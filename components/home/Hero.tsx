@@ -11,15 +11,15 @@ export const Home = () => {
       <main className='flex justify-center items-center lg:flex-row flex-col h-[655px] px-14 bg-3 pt-8'>
         <div className='w-2/4 relative h-full flex justify-center items-center'>
           <div>
-            <h1 className='text-black text-7xl font-semibold col-1'>Medical and Healthcare Services</h1>
+            <h1 className='text-black text-7xl font-bold col-1'>Medical & <br />Health care <span className='col-2'>Services</span></h1>
             <div className='mt-3'>
               <p className='opacity-75'>Your health is our top priority. Schdule an appointment</p>
               <p className='opacity-75'> with us today.</p>
               <div className="flex flex-row items-center">
-                <Button className='bg-2 mt-4 capitalize cursor-pointer shadow-sm hover:shadow-md duration-300 me-3'>
+                <Button className='bg-2 mt-4 capitalize cursor-pointer text-sm shadow-sm hover:shadow-md duration-300 me-3'>
                   read more<i className="ri-arrow-right-line"></i>
                 </Button>
-                <Button className='bg-transparent mt-4 capitalize cursor-pointer hover:bg-transparent shadow-none col-1 duration-300'>
+                <Button className='bg-transparent mt-4 capitalize cursor-pointer hover:bg-transparent shadow-none col-1 duration-300 text-sm'>
                   <i className="ri-play-line text-lg col-2"></i>watch more
                 </Button>
               </div>
@@ -45,15 +45,15 @@ export const Home = () => {
           </div>
           <Card className='bg-white z-20 py-2 rounded-r-lg shadow-md border-none flex flex-row items-center absolute bottom-10 left-18'>
             <CardContent className='p-0'>
-              <div className="flex justify-center items-center mb-2">
-                <div className='border py-7 border-[#00bcdf] px-4.5 rounded-full'>
+              <div className="flex justify-center items-center">
+                <div className='border py-7 border-3 border-[#00bcdf] px-4.5 rounded-full'>
                   <h3 className='text-3xl font-medium col-2 text-center'>82%</h3>
                 </div>
               </div>
-              <div className="flex justify-between items-center border-t px-3 pt-3">
-                <p className='capitalize col-1 me-7 text-sm font-medium'>successfull <span className="block">diaglosis</span></p>
-                <span className='p-1 px-2 shadow-md rounded-full cursor-pointer'>
-                  <i className="ri-arrow-right-up-line text-base"></i>
+              <div className="flex justify-between items-center px-3 pt-3">
+                <p className='capitalize col-1 me-7 text-sm font-semibold'>successfull <span className="block">diaglosis</span></p>
+                <span className='p-1 px-2 rounded-full cursor-pointer border'>
+                  <i className="ri-arrow-right-up-line text-base col-2"></i>
                 </span>
               </div>
             </CardContent>

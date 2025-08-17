@@ -31,7 +31,7 @@ export const Navbar = () => {
                 <Link href="/" className="flex flex-row items-center">
                     <Image src="/images/logo.png" height={70} width={70} alt="main-logo" className="me-1" />
                     <div>
-                        <h2 className="text-xl font-semibold col-1">TakenCare</h2>
+                        <h2 className="text-xl font-bold col-1">TakenCare</h2>
                         <span className="text-sm capitalize opacity-75 font-medium">best healthcare management system</span>
                     </div>
                 </Link>
